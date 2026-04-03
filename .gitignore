@@ -1,0 +1,12 @@
+data/raw/
+data/processed/
+backend/models/
+*.pkl
+*.parquet
+*.csv
+.env
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+frontend/dist/
+.DS_Store
