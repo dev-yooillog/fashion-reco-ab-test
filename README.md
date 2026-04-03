@@ -38,12 +38,14 @@ ALS 점수(10%)와 인기 점수(90%)를 정규화하여 가중합하는 Hybrid 
 | 배포 | Vercel (프론트) / Render (백엔드) |
 
 ## 프로젝트 구조
-├─h-m-analytics/
-├── notebooks/          # 분석 
-├── data/               # 데이터 - git은 제외함
+```
+h-m-analytics/
+├── notebooks/          # 분석 노트북 (01~06)
+├── data/               # 데이터 (git 제외)
 ├── backend/            # FastAPI
 ├── frontend/           # React + Vite
 └── README.md
+```
 
 ## 분석 흐름
 
