@@ -21,8 +21,9 @@ ALS 점수(10%)와 인기 점수(90%)를 정규화하여 가중합하는 Hybrid 
 
 ## 데모
 
-- 프론트엔드: (배포 후 URL 입력)
-- API 문서: (배포 후 URL 입력)/docs
+로컬 실행 후 확인 가능합니다. 재현 방법 섹션 참고.
+- 백엔드 API 문서: `http://localhost:8000/docs`
+- 프론트엔드: `http://localhost:5173`
 
 ## 기술 스택
 
@@ -37,7 +38,7 @@ ALS 점수(10%)와 인기 점수(90%)를 정규화하여 가중합하는 Hybrid 
 | 배포 | Vercel (프론트) / Render (백엔드) |
 
 ## 프로젝트 구조
-h-m-analytics/
+├─h-m-analytics/
 ├── notebooks/          # 분석 
 ├── data/               # 데이터 - git은 제외함
 ├── backend/            # FastAPI
